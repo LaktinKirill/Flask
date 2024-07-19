@@ -1,0 +1,33 @@
+ !DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Flask App{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </nav>
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+    <footer>
+        <p>&copy; 2023 Ваша Компания. Все права защищены.</p>
+        <p>
+            <a href="/about">О нас</a>
+            <a href="/contact">Контакты</a>
+            <a href="/privacy">Политика конфиденциальности</a>
+        </p>
+        <p>Следите за нами:</p>
+        <p>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
+</body>
+</html>
